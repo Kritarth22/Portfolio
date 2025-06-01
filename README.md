@@ -29,5 +29,7 @@ This website serves as a central hub for all my work — helping recruiters, col
 
 ![image alt](https://github.com/Kritarth22/Portfolio/blob/d491eb539be8ca7412afda7f1bc5296ae1f72e40/build/about.png)
 
+![image alt](https://github.com/Kritarth22/Portfolio/blob/54c8738866841802e902219cc7e2f9ddb0bf1bb1/build/projects.png)
+
 🤝 **Contact**
 Feel free to reach out to me through the contact form or via the links provided in the website.
