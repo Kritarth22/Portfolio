@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Kritarth Joshi - Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><b>Kritarth Joshi</b></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span>LLO!!</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="images/home.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="images/top1.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Kritarth Joshi</h2>
+                        <span class="about__profession">Web Developer</span>
+                        <p class="about__text">I'm an enthusiastic coder and web developer with practical experience in JavaScript for backend development and HTML/CSS for the frontend. I enjoy building clean, efficient, and user-centric applications. Beyond web development, I'm passionate about solving complex problems and continuously improving my skills in Data Structures and Algorithms.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.instagram.com/kritarth22_/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                            <a href="https://github.com/Kritarth22" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://www.linkedin.com/in/kritarth-joshi-2a048231b/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <!-- <span class="skills__name">Node</span>
+                        <span class="skills__name">React</span> -->
+                        
+                        <h3 class="skills__subtitle">Coding</h3>
+                        <span class="skills__name">C</span>
+                        <span class="skills__name">C++</span>
+                        <span class="skills__name">Python</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="images/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+        
+                <div class="portfolio__container bd-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio__img" data-project="project1">
+                        <img src="images/portfolio_1.png" alt="Hotel Management system">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="portfolio__img" data-project="project2">
+                        <img src="images/portfolio_2.png" alt="SONICSPHERE_AUDIOSTREAMING_APP">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="portfolio__img" data-project="project3">
+                        <img src="images/portfolio_3.png" alt="Sudoku">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="portfolio__img" data-project="project4">
+                        <img src="images/portfolio_4.png" alt="Amazon-Clone">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+            
+                </div>
+            </section>
+        
+            <!-- Modal for Project 1 -->
+            <div id="modal-project1" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Kritarth22/Hotel-Management-System/blob/main/README.md" style="color: #5361FF;">Essential Requirements </a></h3>
+                    <!-- <img class="modal-image" src="/api/placeholder/800/400" alt="kNN classifier and regression"> -->
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">OOPs</span>
+                        <span class="tech-badge">File I/O</span>
+                        <span class="tech-badge">C++</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        The Hotel Management System is a console-based C++ application designed to automate and simplify various tasks involved in hotel operations. This system allows hotel staff to book rooms, manage customer details, display allotted room information, edit existing customer records, and even handle restaurant food orders. The program categorizes rooms into Deluxe, Executive, and Presidential types, each with a different pricing model.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Challenges included managing binary file operations, preventing data loss during edits, and handling user input validation. Formatting console output neatly and tracking room availability also required careful implementation and testing.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        The project successfully automates key hotel functions like booking, checkouts, and billing. It stores data persistently using binary files and offers a simple, user-friendly interface. The system improves efficiency and reduces manual errors.It provides accurate billing based on room type and food services. Additionally, it helps hotel staff manage customer records with ease and speed.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • OOPs: Learned encapsulation by organizing hotel data and functions within a class structure.<br>
+                        • File I/O: Understood binary file handling for storing and updating customer records efficiently. <br>
+                        • Importance of planning class methods and attributes.<br>
+                        • Gained insight into structuring a console application with a clear user interface.<br>
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 2 -->
+            <div id="modal-project2" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Kritarth22/SONICSPHERE_AUDIOSTREAMING_APP" style="color: #5361FF;">Essential Requirements</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">ER Diagram</span>
+                        <span class="tech-badge">Relational Schema</span>
+                        <span class="tech-badge">BCNF</span>
+                        <span class="tech-badge">DDL</span>
+                        <span class="tech-badge">DBMS</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        The Sonic Sphere Audio Streaming App is a database-driven project that manages users, audio content, playlists, and streaming history. The system is designed using normalized tables to ensure minimal redundancy and maximum efficiency.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        The main challenges included correctly applying BCNF for all relations, mapping real-world audio streaming features to relational models, and ensuring data consistency through well-structured DDL scripts and constraints.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        Successfully implemented a normalized relational database with clear schema and efficient queries. All database components like tables, ERD, and SQL scripts function cohesively. The system handles real-world use cases like audio streaming and playlist creation efficiently.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • Gained hands-on experience with relational database design.<br>
+                        • Learned the practical application of normalization and SQL.<br>
+                        • Understood the importance of schema planning and query optimization.<br>
+                        • Improved ability to model real-life scenarios into a structured DBMS format.<br>
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 3 -->
+            <div id="modal-project3" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Kritarth22/SUDOKU" style="color: #5361FF;">Sudoku</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        This project is a fully functional Sudoku game developed using HTML, CSS, and JavaScript. It provides an interactive user interface with features such as a timer, hints, puzzle validation, and auto-solving. The aim was to create a clean, engaging puzzle experience that runs entirely in the browser, with a responsive design and intuitive controls for all levels of users.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        One of the main challenges was implementing an efficient Sudoku-solving algorithm while keeping the logic modular and readable. Ensuring real-time input validation and integrating features like hints and "check" functionality required managing the game state accurately. Another key challenge was syncing the visual updates with internal logic to reflect user interactions smoothly.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        Successfully developed a fully playable Sudoku game featuring a functional and user-friendly interface. The game includes core logic for solving puzzles, providing hints, and validating user inputs. Responsive design principles were applied to ensure smooth interactivity and real-time feedback across different screen sizes. Enhancements like a countdown timer and limited hints were implemented to boost user engagement. The game runs efficiently in modern browsers, with a clean separation between the logic and layout, ensuring maintainability and scalability.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • Gained practical experience in grid-based layout design and state management in JavaScript.<br>
+                        • Learned to apply backtracking algorithms to solve constraint-based problems like Sudoku.<br>
+                        • Improved skills in event-driven programming, modular coding, and debugging complex UI behavior.<br>
+                        • Understood how to balance user experience (UX) with algorithmic performance in a web environment.<br>
+                        
+                    </p>
+                </div>
+            </div> 
+
+            
+            <!-- Modal for Project 4 -->
+            <div id="modal-project4" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Kritarth22/Amazon-Clone" style="color: #5361FF;">Amazon Clone</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        This project is a static Amazon homepage clone developed using HTML and CSS. The design replicates the layout, navigation bar, product cards, and promotional banners of the original Amazon site. It showcases various categories like Garments, Electronics, Wooden Sets, and Health & Personal Care, giving users a feel of browsing a real e-commerce platform.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        The main challenge was accurately recreating the complex grid layout and responsive design without JavaScript. Managing the positioning and spacing of multiple sections, implementing a flexible navigation bar, and maintaining design consistency across different screen sizes required precision in CSS styling and media queries.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        The project successfully resulted in a visually appealing and structurally accurate clone of the Amazon homepage. It effectively demonstrates key design elements such as a responsive navigation bar, product category sections, and promotional banners, all built using only HTML and CSS. The layout adapts well across different screen sizes, showcasing the project's responsive design capabilities. Overall, the clone delivers a realistic front-end experience and serves as a strong foundation for future enhancements using JavaScript or backend integration.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • Learned how to structure large-scale HTML pages with multiple content sections.<br>
+                        • Strengthened understanding of CSS layout systems, spacing, and alignment techniques.<br>
+                        • Understood the importance of design consistency and UI hierarchy in e-commerce websites.<br>
+                        • Built confidence in replicating professional-grade interfaces using only front-end technologies.<br>
+                    </p>
+                </div>
+            </div> 
+            
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">kritarth.dpr@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 8769356566</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Dungarpur, Rajasthan, India</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Submit" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Kritarth Joshi</h2>
+                    <p class="footer__text">I'm Kritarth Joshi and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.instagram.com/kritarth22_/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/Kritarth22" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/kritarth-joshi-2a048231b/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+
+                </div>
+
+
+            </div>
+        </footer>
+
+        <script>
+            // Get all project cards
+            const portfolioItems = document.querySelectorAll('.portfolio__img');
+            
+            // Add click event to each project card
+            portfolioItems.forEach(item => {
+                const projectId = item.getAttribute('data-project');
+                const modal = document.getElementById(`modal-${projectId}`);
+                const closeBtn = modal.querySelector('.close');
+                
+                // Open modal when clicking on project card
+                item.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    modal.style.display = 'block';
+                });
+                
+                // Close modal when clicking on close button
+                closeBtn.addEventListener('click', () => {
+                    modal.style.display = 'none';
+                });
+                
+                // Close modal when clicking outside of it
+                window.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        modal.style.display = 'none';
+                    }
+                });
+            });
+        </script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
